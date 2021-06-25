@@ -9,3 +9,8 @@ eureka:
 spring:
   main:
     allow-bean-definition-overriding: true
+user:
+  config:
+    id: 99999
+    user-name: 张三
+    birthday: 2021/06/25 11:37:37
