@@ -9,10 +9,10 @@ eureka:
 spring:
   main:
     allow-bean-definition-overriding: true
-  mvc:
-    format:
-      date: yyyy-MM-dd
-      date-time: yyyy-MM-dd HH:mm:ss
+#  mvc:
+#    format:
+#      date: yyyy-MM-dd
+#      date-time: yyyy-MM-dd HH:mm:ss
 user:
   config:
     id: 99999
