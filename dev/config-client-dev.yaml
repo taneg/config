@@ -1,0 +1,11 @@
+server:
+  port: 9030
+eureka:
+  client:
+    service-url:
+      defaultZone: http://server2:8082/eureka/
+  instance:
+    prefer-ip-address: true
+spring:
+  main:
+    allow-bean-definition-overriding: true
