@@ -13,6 +13,11 @@ spring:
     format:
       date: yyyy-MM-dd
       date-time: yyyy-MM-dd HH:mm:ss
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,beans,refresh
 user:
   config:
     id: 99999
